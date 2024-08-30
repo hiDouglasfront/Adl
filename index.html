@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Adalton Jardinagem</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="#" alt="Logo da empresa Adalton Jardinagem" />
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link active-link" href="#home">
+                <i class="bx bxs-home-alt-2"></i>
+                <span>Inicio</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#popular" class="nav__link active-link">
+                <i class="bx bx-building-house"></i>
+                <span>Serviços</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#value" class="nav__link active-link">
+                <i class="bx bx-award"></i>
+                <span>Valor</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link active-link">
+                <i class="bx bx-phone"></i>
+                <span>Contato</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+
+    <!=================MAIN===============->
+    <main class="main">
+
+        <!========================HOME====================->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home_data">
+                    <h1 class="home__title">Soluções de <br> Alta <br> Qualidade</h1>
+                    <p class="home__description">
+                        A <strong>
+                            jardinagem é a arte de transformar e 
+                            cuidardos espaços verdes
+                        </strong>
+                        garantindo a beleza e a saúde de jardins, parques
+                        e áreas externas.
+                        Nosso Serviço de jardinagem vai além de simplesmente
+                        plantar e podar; nós revitalizamos seus espaços verdes,
+                        removendo ervas daninhas, adubando, e criando paisagens
+                        que valorizam o ambiente, evidenciando a vitalidade e a
+                        harmonia natural de cada planta.
+                    </p>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <!-- <img src="#" alt="Home"> -->
+
+                        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://lottie.host/b4c00450-69a4-4e7f-9245-457af0d8da4a/5vcdE5SrWf.json"
+                            background="black" speed="1" style="width: 300px; height: 350px;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!===================CALL TO ACTION================->
+        <section class="section">
+            <div class="container">
+                <div class="call-to-action">
+                    <h2>Nossas Soluções</h2>
+
+                    <ul class="servces">
+                        <li><i class="bx bx-check"></i>Jardinagem</li>
+                        <li><i class="bx bx-check"></i>Paisagismo</li>
+                        <li><i class="bx bx-check"></i>Poda e Corte de Grama</li>
+                        <li><i class="bx bx-check"></i>Remoção de árvores</li>
+                        <li><i class="bx bx-check"></i>Adubação e reposição de plantas</li>
+                        <li><i class="bx bx-check"></i>Adminisração e manutenção de jardins</li>
+                        <li><i class="bx bx-check"></i>Formação de jardins</li>
+                        <li><i class="bx bx-check"></i>Limpeza e Conservação</li>
+                        <li><i class="bx bx-check"></i>Controle de Pragas e Tratamento de doenças</li>
+                    </ul>
+
+                    <div class="btn-call-to-action">
+                        <a href="#" target="_blank">
+                            Entrar em contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Nossa Galeria</span>
+                <h2 class="section__title">
+                    Faça parte<span>.</span>
+                </h2>
+            </div>
+
+            <div class="popular__container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_1.jpg" alt="Cliente 1" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_2.jpg" alt="Cliente 2"
+                            class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_3.jpg" alt="Cliente 3" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_4.jpg" alt="Cliente 4" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">c
+                        <img src="./assets/img/servicos/Cliente_5.jpg" alt="Cliente 5" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_6.jpg" alt="Cliente 6" class="popular__img">
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <img src="./assets/img/servicos/Cliente_7.jpg" alt="Cliente 7" class="popular__img">
+                </div>
+<!-- 
+                <div class="swiper-button-next">
+                    <i class="bx bx-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="bx bx-chevron-left"></i>
+                </div> -->
+            </div>
+        </section>
+
+         <!--==================== LOGOS ====================-->
+         <section class="logos section">
+            <h2>Clientes e Parceiros</h2>
+
+            <p>
+                Nós sabemos que grandes feitos só são alcançados juntos,
+                e é por isso que nos orgulhamos de nossos clientes e parceiros.
+                Eles são reflexo do nosso comprometimento com a qualidade e 
+                satisfação. São a base e os coautores de nossa história de sucesso
+                e qualidade, escrita e construída ao longo de mais de 15 anos,
+                que se tornou hoje referencia no mercado.
+            </p>
+
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="#" alt="Logo Cliente 1">
+                </div>
+                <div class="logos__img">
+                    <img src="#" alt="Logo Cliente 2">
+                </div>
+                <div class="logos__img">
+                    <img src="#" alt="Logo Cliente 3">
+                </div>
+                <div class="logos__img">
+                    <img src="#" alt="Logo Cliente 4">
+                </div>
+                <div class="logos__img">
+                    <img src="#" alt="Logo Cliente 5">
+                </div>
+            </div>
+         </section>
+
+
+        <!--==================== VALUE ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe"></div>
+
+                    <div class="value__img">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_sF45hD.json"
+                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+                        </lottie-player>
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nossos Valores</span>
+                        <h2 class="section__title">
+                            Valor que damos a você
+                        </h2>
+                        <p class="value__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iste quidem temporibus esse
+                            eos eveniet incidunt veritatis amet eum nam debitis quas reiciendis maxime atque,
+                            praesentium ab quaerat perferendis ipsam.
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-show value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Visão
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Ser uma empresa reconhecida pela excelência, qualidade e competência
+                                    no que executa e no atendimento, superando as expectativas de seus clientes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-award value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Confiança
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Algum texto aqui
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class="bx bx-check-double value__accordion-icon"></i>
+                                <h3 class="value__accordion-title">
+                                    Agilidade
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class="bx bxs-down-arrow"></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Algum texto aqui
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_enux1xnv.json"
+                            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contate-nos</span>
+                        <h2 class="section__title">
+                            Fácil de entrar em contato conosco <span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Nos envie uma mensagem. Até duas!
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <!-- <div class="contact__card-box">
+                            <div class="contact__card-info card-box-1">
+                                <i class="bx bxs-phone-call"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Telefone
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (35) 9.8875-4424
+                                    </p>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="bx bxs-message-rounded-dots"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        WhatsApp
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        (35) 9.8704-2369
+                                    </p>
+                                </div>
+                            </div>
+                            <a class="button contact__card-button"
+                                href="https://api.whatsapp.com/send?phone=5535987042369&text=Preciso%20de%20um%20help!"
+                                target="_blank">
+                                Chame Agora
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <span>Adalton</span>Jardinagem <i class="bx bxs-home-alt-2"></i>
+                </a>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Sobre
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">
+                                Sobre Nós
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">
+                                Características
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Siga-nos
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/profile.php?id=100063786481413" target="_blank"
+                            class="footer__social-link">
+                            <i class="bx bxl-facebook-circle"></i>
+                        </a>
+                        <a href="https://www.instagram.com/starclean_vga/" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; hidouglas5. | Todos os direitos reservados
+            </span>
+
+            <div class="footer__privacy">
+                <a href="#">Terms & Agreements</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
